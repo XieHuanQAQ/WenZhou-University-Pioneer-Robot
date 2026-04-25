@@ -18,22 +18,26 @@ if (menuToggle && siteNav) {
 
 const revealTargets = document.querySelectorAll(".reveal");
 
-const revealObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  },
-  {
-    threshold: 0.16,
-    rootMargin: "0px 0px -40px 0px"
-  }
-);
+if ("IntersectionObserver" in window) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.16,
+      rootMargin: "0px 0px -40px 0px"
+    }
+  );
 
-revealTargets.forEach((target) => revealObserver.observe(target));
+  revealTargets.forEach((target) => revealObserver.observe(target));
+} else {
+  revealTargets.forEach((target) => target.classList.add("is-visible"));
+}
 
 const metricElements = document.querySelectorAll("[data-count]");
 
@@ -60,16 +64,20 @@ const animateNumber = (element) => {
   requestAnimationFrame(frame);
 };
 
-const metricObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        animateNumber(entry.target);
-        metricObserver.unobserve(entry.target);
-      }
-    });
-  },
-  { threshold: 0.7 }
-);
+if ("IntersectionObserver" in window) {
+  const metricObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          animateNumber(entry.target);
+          metricObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.7 }
+  );
 
-metricElements.forEach((element) => metricObserver.observe(element));
+  metricElements.forEach((element) => metricObserver.observe(element));
+} else {
+  metricElements.forEach((element) => animateNumber(element));
+}

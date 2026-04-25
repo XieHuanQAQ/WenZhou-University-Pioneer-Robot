@@ -3,24 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>招新 | 温州大学开拓者机器人战队</title>
-    <meta name="description" content="温州大学开拓者机器人战队招新页面，展示加入方式、要求和流程。" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
-      rel="stylesheet"
+    <title>加入我们 | 温州大学开拓者机器人战队</title>
+    <meta
+      name="description"
+      content="温州大学开拓者机器人战队加入我们页面，展示招新方向、培养流程和报名方式。"
     />
     <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header class="topbar">
-      <div class="shell topbar-inner">
-        <a class="brand" href="index.html" aria-label="温州大学开拓者机器人战队">
-          <img src="assets/logo-mark.svg" alt="" width="54" height="54" />
-          <span class="brand-text">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="index.html" aria-label="温州大学开拓者机器人战队">
+          <img class="brand-logo" src="assets/logo-mark.svg" alt="" width="52" height="52" />
+          <span class="brand-copy">
             <strong>温州大学开拓者机器人战队</strong>
             <small>WENZHOU UNIVERSITY PIONEER ROBOT</small>
           </span>
@@ -30,10 +27,10 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="主导航">
           <a href="index.html">首页</a>
-          <a href="news.html">新闻</a>
-          <a href="history.html">历史</a>
+          <a href="news.html">新闻动态</a>
+          <a href="history.html">历届发展</a>
           <a href="partners.html">合作伙伴</a>
-          <a href="join.html" aria-current="page">招新</a>
+          <a href="join.html" aria-current="page">加入我们</a>
           <a href="about.html">关于我们</a>
           <a href="hall-of-fame.html">名人堂</a>
           <a href="https://space.bilibili.com/3546788659202515" target="_blank" rel="noreferrer">B站</a>
@@ -42,62 +39,122 @@
     </header>
 
     <main>
-      <section class="page-hero">
-        <div class="shell shell-narrow">
-          <div class="page-intro reveal">
-            <p class="page-kicker">Join Us</p>
-            <h1 class="page-title">加入我们</h1>
-            <p class="page-summary">
-              这页适合放最直接的招新信息：我们在找什么样的人、怎么报名、面试考核怎么走、
-              加入后能做什么。
-            </p>
-            <div class="page-actions">
-              <a class="link-button link-button-dark" href="mailto:team@example.com">联系报名</a>
-              <a class="link-button" href="about.html">了解方向</a>
+      <section class="page-hero section">
+        <div class="container narrow">
+          <p class="eyebrow reveal">Join Us</p>
+          <h1 class="page-title reveal">加入温州大学开拓者机器人战队</h1>
+          <p class="page-summary reveal">
+            无论你是否有基础，只要你对机器人、机械结构、电控开发、编程算法、视觉识别、宣传运营或工程实践感兴趣，
+            并愿意长期投入训练与项目协作，都欢迎加入开拓者机器人战队。
+          </p>
+          <div class="button-row reveal">
+            <a class="button button-primary" href="#">立即报名加入战队</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-divider">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <div>
+              <p class="section-eyebrow">Recruitment Directions</p>
+              <h2 class="section-title">招新方向</h2>
+            </div>
+          </div>
+          <div class="simple-grid direction-grid">
+            <article class="simple-panel reveal">
+              <h3>机械方向</h3>
+              <p>SolidWorks 建模、结构设计、加工装配、整机维护。</p>
+            </article>
+            <article class="simple-panel reveal">
+              <h3>电控方向</h3>
+              <p>电机驱动、电路连接、传感器调试、电源管理。</p>
+            </article>
+            <article class="simple-panel reveal">
+              <h3>嵌入式方向</h3>
+              <p>C/C++、单片机、通信协议、运动控制。</p>
+            </article>
+            <article class="simple-panel reveal">
+              <h3>视觉方向</h3>
+              <p>OpenCV、相机标定、目标识别、图像处理。</p>
+            </article>
+            <article class="simple-panel reveal">
+              <h3>运营宣传方向</h3>
+              <p>摄影摄像、海报设计、公众号推文、赛事材料整理。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-divider">
+        <div class="container two-column-layout">
+          <div class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">加入后能学到什么</h2>
+            </div>
+            <ul class="feature-list">
+              <li>完整机器人项目开发流程</li>
+              <li>机械设计与加工装配经验</li>
+              <li>电控系统搭建与调试能力</li>
+              <li>嵌入式程序和运动控制基础</li>
+              <li>视觉识别和算法应用能力</li>
+              <li>团队协作、工程文档和比赛答辩能力</li>
+            </ul>
+          </div>
+
+          <div class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">招新流程</h2>
+            </div>
+            <div class="simple-list">
+              <p>线上报名</p>
+              <p>招新宣讲</p>
+              <p>方向介绍与答疑</p>
+              <p>基础培训</p>
+              <p>小任务考核</p>
+              <p>分组培养</p>
+              <p>参与赛季项目</p>
             </div>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="shell shell-narrow">
-          <div class="info-grid">
-            <article class="info-panel reveal">
-              <h3>我们欢迎的同学</h3>
-              <p>对机器人、工程实践、项目协作有兴趣，愿意持续学习和投入时间。</p>
-            </article>
-            <article class="info-panel reveal">
-              <h3>适合加入的方向</h3>
-              <p>机械、电控、嵌入式、视觉、运营宣传。</p>
-            </article>
-            <article class="info-panel reveal">
-              <h3>建议补充的招新信息</h3>
-              <p>招新时间、报名链接、群二维码、考核形式、答疑联系人。</p>
-            </article>
-            <article class="info-panel reveal">
-              <h3>你们可以直接替换成</h3>
-              <p>QQ群号、微信群二维码、报名表单链接、宣讲会时间地点。</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-soft">
-        <div class="shell shell-narrow">
-          <div class="content-block reveal">
-            <p class="lead">
-              零基础可以加入，但建议在这里明确告诉新生：需要稳定投入、接受训练节奏、
-              愿意参与团队协作，而不是只来短期体验。
-            </p>
+        <div class="container narrow">
+          <div class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">报名方式</h2>
+            </div>
+            <div class="simple-list">
+              <p>报名表：请替换为腾讯问卷 / 问卷星链接</p>
+              <p>咨询 QQ 群：请替换为真实 QQ 群号</p>
+              <p>联系人：请替换为招新负责人</p>
+              <p>宣讲时间：请替换为具体时间</p>
+              <p>宣讲地点：请替换为具体地点</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="shell footer-inner">
-        <img src="assets/logo-mark.svg" alt="" width="34" height="34" />
-        <p>© 2026 Wenzhou University Pioneer Robot Team</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.svg" alt="" width="32" height="32" />
+          <div>
+            <p class="footer-name">温州大学开拓者机器人战队</p>
+            <p>地址：温州大学机器人创新实践基地</p>
+            <p>联系方式：请替换为战队邮箱 / QQ 群 / 招新负责人</p>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>B站：开拓者机器人战队</p>
+          <p>© 2026 Wenzhou University Pioneer Robotics Team</p>
+        </div>
       </div>
     </footer>
   </body>

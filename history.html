@@ -3,24 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>历史 | 温州大学开拓者机器人战队</title>
-    <meta name="description" content="温州大学开拓者机器人战队历史页面，记录历届参赛详情与发展历程。" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
-      rel="stylesheet"
+    <title>历届发展 | 温州大学开拓者机器人战队</title>
+    <meta
+      name="description"
+      content="温州大学开拓者机器人战队历届发展页面，展示战队发展过程与赛季项目传承。"
     />
     <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header class="topbar">
-      <div class="shell topbar-inner">
-        <a class="brand" href="index.html" aria-label="温州大学开拓者机器人战队">
-          <img src="assets/logo-mark.svg" alt="" width="54" height="54" />
-          <span class="brand-text">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="index.html" aria-label="温州大学开拓者机器人战队">
+          <img class="brand-logo" src="assets/logo-mark.svg" alt="" width="52" height="52" />
+          <span class="brand-copy">
             <strong>温州大学开拓者机器人战队</strong>
             <small>WENZHOU UNIVERSITY PIONEER ROBOT</small>
           </span>
@@ -30,10 +27,10 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="主导航">
           <a href="index.html">首页</a>
-          <a href="news.html">新闻</a>
-          <a href="history.html" aria-current="page">历史</a>
+          <a href="news.html">新闻动态</a>
+          <a href="history.html" aria-current="page">历届发展</a>
           <a href="partners.html">合作伙伴</a>
-          <a href="join.html">招新</a>
+          <a href="join.html">加入我们</a>
           <a href="about.html">关于我们</a>
           <a href="hall-of-fame.html">名人堂</a>
           <a href="https://space.bilibili.com/3546788659202515" target="_blank" rel="noreferrer">B站</a>
@@ -42,85 +39,108 @@
     </header>
 
     <main>
-      <section class="page-hero">
-        <div class="shell shell-narrow">
-          <div class="page-intro reveal">
-            <p class="page-kicker">History</p>
-            <h1 class="page-title">历届参赛与战队发展</h1>
-            <p class="page-summary">
-              这里建议按年份或赛季整理参赛详情，包括参赛项目、机器人类型、队伍规模、
-              阶段成果和最终成绩。
-            </p>
+      <section class="page-hero section">
+        <div class="container narrow">
+          <p class="eyebrow reveal">History</p>
+          <h1 class="page-title reveal">历届发展</h1>
+          <p class="page-summary reveal">
+            从战队成立到赛季项目迭代，开拓者机器人战队在训练、参赛和复盘中形成技术积累与团队文化。
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-divider">
+        <div class="container narrow">
+          <div class="timeline-list">
+            <article class="timeline-row reveal">
+              <div class="timeline-year">2019</div>
+              <div class="timeline-body">
+                <h2>战队成立</h2>
+                <p>完成战队初期组建，开始围绕机器人竞赛和工程训练开展探索。</p>
+              </div>
+            </article>
+            <article class="timeline-row reveal">
+              <div class="timeline-year">2021</div>
+              <div class="timeline-body">
+                <h2>基础方向逐步形成</h2>
+                <p>机械、电控、程序等方向开始分工，队伍训练机制逐步完善。</p>
+              </div>
+            </article>
+            <article class="timeline-row reveal">
+              <div class="timeline-year">2023</div>
+              <div class="timeline-body">
+                <h2>项目体系逐步稳定</h2>
+                <p>战队开始形成较完整的设计、加工、调试和复盘流程。</p>
+              </div>
+            </article>
+            <article class="timeline-row reveal">
+              <div class="timeline-year">2025</div>
+              <div class="timeline-body">
+                <h2>平台化建设推进</h2>
+                <p>围绕赛季机器人、训练资料、成员培养和对外展示进行系统化建设。</p>
+              </div>
+            </article>
+            <article class="timeline-row reveal">
+              <div class="timeline-year">2026</div>
+              <div class="timeline-body">
+                <h2>新赛季研发中</h2>
+                <p>继续推进机器人整机平台升级，完善机械结构、电控系统和视觉识别能力。</p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="shell shell-narrow">
-          <div class="timeline reveal">
-            <article class="timeline-item">
-              <span class="timeline-year">2026</span>
-              <div>
-                <h3>赛季研发中</h3>
-                <p>填写本赛季核心项目、主要技术突破和准备参加的比赛名称。</p>
-              </div>
-            </article>
-            <article class="timeline-item">
-              <span class="timeline-year">2025</span>
-              <div>
-                <h3>完成上一代平台迭代</h3>
-                <p>写清参赛机器人型号、结构升级点、控制策略和最后成绩。</p>
-              </div>
-            </article>
-            <article class="timeline-item">
-              <span class="timeline-year">2024</span>
-              <div>
-                <h3>项目规模开始扩大</h3>
-                <p>可以记录队伍人数、多个方向并行推进以及校内影响力增长。</p>
-              </div>
-            </article>
-            <article class="timeline-item">
-              <span class="timeline-year">2019</span>
-              <div>
-                <h3>战队建立</h3>
-                <p>补充成立背景、最初成员构成和第一届参赛或训练项目。</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-soft">
-        <div class="shell">
-          <div class="section-heading reveal">
-            <span class="section-mark" aria-hidden="true"></span>
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="brand-mark" aria-hidden="true"></span>
             <div>
-              <p class="section-label">Seasons</p>
-              <h2>也可以按赛季做更细的展开。</h2>
+              <p class="section-eyebrow">Season Projects</p>
+              <h2 class="section-title">赛季项目展示</h2>
             </div>
           </div>
-          <div class="card-grid-three">
-            <article class="history-card reveal">
-              <h3>赛季名称</h3>
-              <p>参赛项目、主要机器人、队员规模、成绩与代表照片。</p>
+          <div class="simple-grid project-grid">
+            <article class="simple-panel reveal">
+              <h3>2024 赛季项目</h3>
+              <p>参赛项目：机器人竞赛阶段项目</p>
+              <p>机器人类型：机动平台与执行机构联合调试平台</p>
+              <p>核心技术：结构迭代、电控联调、底层控制</p>
+              <p>主要成果：完成基础整机平台搭建，形成分组协作与阶段复盘机制。</p>
             </article>
-            <article class="history-card reveal">
-              <h3>赛季名称</h3>
-              <p>适合补充关键里程碑，例如第一次打入省赛、国赛或完成自研模块。</p>
+            <article class="simple-panel reveal">
+              <h3>2025 赛季项目</h3>
+              <p>参赛项目：赛季机器人平台建设</p>
+              <p>机器人类型：面向竞赛任务的整机研发平台</p>
+              <p>核心技术：机械优化、通信稳定性、整机调试</p>
+              <p>主要成果：推进训练资料、研发流程和对外展示内容同步建设。</p>
             </article>
-            <article class="history-card reveal">
-              <h3>赛季名称</h3>
-              <p>如果资料足够，也可以做成每个赛季单独一个详情页。</p>
+            <article class="simple-panel reveal">
+              <h3>2026 赛季研发中</h3>
+              <p>参赛项目：新赛季机器人研发</p>
+              <p>机器人类型：新一代整机平台</p>
+              <p>核心技术：结构升级、电控系统整合、视觉识别辅助</p>
+              <p>主要成果：持续推进平台升级与各技术方向协同研发。</p>
             </article>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="shell footer-inner">
-        <img src="assets/logo-mark.svg" alt="" width="34" height="34" />
-        <p>© 2026 Wenzhou University Pioneer Robot Team</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.svg" alt="" width="32" height="32" />
+          <div>
+            <p class="footer-name">温州大学开拓者机器人战队</p>
+            <p>地址：温州大学机器人创新实践基地</p>
+            <p>联系方式：请替换为战队邮箱 / QQ 群 / 招新负责人</p>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>B站：开拓者机器人战队</p>
+          <p>© 2026 Wenzhou University Pioneer Robotics Team</p>
+        </div>
       </div>
     </footer>
   </body>

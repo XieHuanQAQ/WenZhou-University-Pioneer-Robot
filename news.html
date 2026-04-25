@@ -3,24 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>新闻 | 温州大学开拓者机器人战队</title>
-    <meta name="description" content="温州大学开拓者机器人战队新闻页面，按时间顺序整理近期动态。" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
-      rel="stylesheet"
+    <title>新闻动态 | 温州大学开拓者机器人战队</title>
+    <meta
+      name="description"
+      content="温州大学开拓者机器人战队新闻动态页面，展示训练记录、比赛动态、招新活动、成果展示和技术分享。"
     />
     <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header class="topbar">
-      <div class="shell topbar-inner">
-        <a class="brand" href="index.html" aria-label="温州大学开拓者机器人战队">
-          <img src="assets/logo-mark.svg" alt="" width="54" height="54" />
-          <span class="brand-text">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="index.html" aria-label="温州大学开拓者机器人战队">
+          <img class="brand-logo" src="assets/logo-mark.svg" alt="" width="52" height="52" />
+          <span class="brand-copy">
             <strong>温州大学开拓者机器人战队</strong>
             <small>WENZHOU UNIVERSITY PIONEER ROBOT</small>
           </span>
@@ -30,10 +27,10 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="主导航">
           <a href="index.html">首页</a>
-          <a href="news.html" aria-current="page">新闻</a>
-          <a href="history.html">历史</a>
+          <a href="news.html" aria-current="page">新闻动态</a>
+          <a href="history.html">历届发展</a>
           <a href="partners.html">合作伙伴</a>
-          <a href="join.html">招新</a>
+          <a href="join.html">加入我们</a>
           <a href="about.html">关于我们</a>
           <a href="hall-of-fame.html">名人堂</a>
           <a href="https://space.bilibili.com/3546788659202515" target="_blank" rel="noreferrer">B站</a>
@@ -42,51 +39,72 @@
     </header>
 
     <main>
-      <section class="page-hero">
-        <div class="shell shell-narrow">
-          <div class="page-intro reveal">
-            <p class="page-kicker">News</p>
-            <h1 class="page-title">新闻与动态</h1>
-            <p class="page-summary">
-              这一页适合按时间倒序维护战队新闻。以后你们每有一次训练营、比赛、宣讲、
-              作品展示或获奖，都可以直接往最上面加一条。
-            </p>
-          </div>
-          <div class="page-banner reveal">
-            <div class="banner-note">Training logs, competition recaps and team updates</div>
-          </div>
+      <section class="page-hero section">
+        <div class="container narrow">
+          <p class="eyebrow reveal">News</p>
+          <h1 class="page-title reveal">新闻动态</h1>
+          <p class="page-summary reveal">
+            记录战队训练日常、比赛进展、招新活动、技术分享与阶段成果。
+          </p>
         </div>
       </section>
 
-      <section class="section">
-        <div class="shell shell-narrow">
-          <div class="news-list reveal">
-            <article class="news-item">
-              <div class="news-date">2026.04</div>
-              <div>
-                <h3>赛季机器人完成阶段联调</h3>
-                <p>这里可以写近期机器人完成了哪一轮调试、解决了什么问题、下一阶段准备做什么。</p>
+      <section class="section section-divider">
+        <div class="container narrow">
+          <div class="news-list">
+            <article class="news-row reveal">
+              <div class="news-date-block">
+                <span>2026.04</span>
+                <small>训练记录</small>
+              </div>
+              <div class="news-content">
+                <h2>开拓者机器人战队完成新赛季机械结构阶段装配</h2>
+                <p>
+                  机械组围绕新赛季机器人平台完成结构方案讨论、零部件建模与阶段装配，
+                  为后续电控布线和整机联调打下基础。
+                </p>
               </div>
             </article>
-            <article class="news-item">
-              <div class="news-date">2026.03</div>
-              <div>
-                <h3>战队开展春季训练营</h3>
-                <p>适合记录机械、电控、嵌入式、视觉方向的入门训练安排和成果展示。</p>
+
+            <article class="news-row reveal">
+              <div class="news-date-block">
+                <span>2026.03</span>
+                <small>招新活动</small>
+              </div>
+              <div class="news-content">
+                <h2>战队开展春季招新宣讲与基础培训活动</h2>
+                <p>
+                  本次招新面向对机器人、机械、电控、程序、视觉和宣传方向感兴趣的同学，
+                  帮助新成员了解战队方向和培养流程。
+                </p>
               </div>
             </article>
-            <article class="news-item">
-              <div class="news-date">2026.02</div>
-              <div>
-                <h3>新成员完成基础考核</h3>
-                <p>可以补充考核内容、通过率、优秀成员和后续训练计划。</p>
+
+            <article class="news-row reveal">
+              <div class="news-date-block">
+                <span>2026.02</span>
+                <small>技术分享</small>
+              </div>
+              <div class="news-content">
+                <h2>电控组完成多电机通信与底盘运动测试</h2>
+                <p>
+                  电控组围绕电机通信、控制逻辑和底盘运动效果进行了集中调试，
+                  为后续整机稳定运行提供支持。
+                </p>
               </div>
             </article>
-            <article class="news-item">
-              <div class="news-date">2025.11</div>
-              <div>
-                <h3>战队开放对外合作咨询</h3>
-                <p>这类信息也适合放进新闻页，能让访问者感觉网站持续在更新。</p>
+
+            <article class="news-row reveal">
+              <div class="news-date-block">
+                <span>2025.11</span>
+                <small>成果展示</small>
+              </div>
+              <div class="news-content">
+                <h2>战队参加校内科技创新成果展示活动</h2>
+                <p>
+                  开拓者机器人战队携带阶段性机器人作品参与展示，向师生介绍机器人结构设计、
+                  控制系统和团队建设成果。
+                </p>
               </div>
             </article>
           </div>
@@ -94,10 +112,20 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="shell footer-inner">
-        <img src="assets/logo-mark.svg" alt="" width="34" height="34" />
-        <p>© 2026 Wenzhou University Pioneer Robot Team</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.svg" alt="" width="32" height="32" />
+          <div>
+            <p class="footer-name">温州大学开拓者机器人战队</p>
+            <p>地址：温州大学机器人创新实践基地</p>
+            <p>联系方式：请替换为战队邮箱 / QQ 群 / 招新负责人</p>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>B站：开拓者机器人战队</p>
+          <p>© 2026 Wenzhou University Pioneer Robotics Team</p>
+        </div>
       </div>
     </footer>
   </body>

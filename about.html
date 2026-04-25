@@ -4,23 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>关于我们 | 温州大学开拓者机器人战队</title>
-    <meta name="description" content="温州大学开拓者机器人战队关于我们页面，介绍战队定位与方向。" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="温州大学开拓者机器人战队关于我们页面，介绍战队简介、战队定位、技术方向、组织结构、训练体系与团队文化。"
     />
     <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header class="topbar">
-      <div class="shell topbar-inner">
-        <a class="brand" href="index.html" aria-label="温州大学开拓者机器人战队">
-          <img src="assets/logo-mark.svg" alt="" width="54" height="54" />
-          <span class="brand-text">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="index.html" aria-label="温州大学开拓者机器人战队">
+          <img class="brand-logo" src="assets/logo-mark.svg" alt="" width="52" height="52" />
+          <span class="brand-copy">
             <strong>温州大学开拓者机器人战队</strong>
             <small>WENZHOU UNIVERSITY PIONEER ROBOT</small>
           </span>
@@ -30,10 +27,10 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="主导航">
           <a href="index.html">首页</a>
-          <a href="news.html">新闻</a>
-          <a href="history.html">历史</a>
+          <a href="news.html">新闻动态</a>
+          <a href="history.html">历届发展</a>
           <a href="partners.html">合作伙伴</a>
-          <a href="join.html">招新</a>
+          <a href="join.html">加入我们</a>
           <a href="about.html" aria-current="page">关于我们</a>
           <a href="hall-of-fame.html">名人堂</a>
           <a href="https://space.bilibili.com/3546788659202515" target="_blank" rel="noreferrer">B站</a>
@@ -42,79 +39,120 @@
     </header>
 
     <main>
-      <section class="page-hero">
-        <div class="shell shell-narrow">
-          <div class="page-intro reveal">
-            <p class="page-kicker">About</p>
-            <h1 class="page-title">关于我们</h1>
-            <p class="page-summary">
-              这一页负责正式介绍战队。比起首页上的简短文字，这里更适合讲清楚你们的定位、
-              目标、方向、训练体系和团队文化。
-            </p>
-          </div>
+      <section class="page-hero section">
+        <div class="container narrow">
+          <p class="eyebrow reveal">About Us</p>
+          <h1 class="page-title reveal">关于我们</h1>
+          <p class="page-summary reveal">
+            温州大学开拓者机器人战队是一支面向机器人竞赛、智能装备研发与工程实践训练的学生科技团队。
+          </p>
         </div>
       </section>
 
-      <section class="section">
-        <div class="shell shell-narrow">
-          <div class="content-block reveal">
-            <p class="lead">
-              温州大学开拓者机器人战队依托校内工程实践平台开展长期建设，围绕机器人竞赛、
-              自主研发与工程训练组织成员完成从设计、开发、调试到参赛的完整闭环。
+      <section class="section section-divider">
+        <div class="container narrow content-stack">
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">战队简介</h2>
+            </div>
+            <p>
+              战队依托学校工程实践资源，组织成员完成从方案设计、机械建模、电路搭建、程序开发、
+              视觉调试到整机联调的完整项目流程，围绕机器人竞赛和工程训练持续推进平台建设。
             </p>
-            <div class="two-column-list">
-              <div>
-                <h3>战队定位</h3>
-                <ul>
-                  <li>面向竞赛与工程实战</li>
-                  <li>强调项目驱动与协作能力</li>
-                  <li>培养复合型技术成员</li>
-                </ul>
-              </div>
-              <div>
-                <h3>主要方向</h3>
-                <ul>
-                  <li>机械设计与整机装配</li>
-                  <li>嵌入式、电控与通信</li>
-                  <li>视觉识别与控制算法</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          </section>
 
-      <section class="section section-soft">
-        <div class="shell">
-          <div class="section-heading reveal">
-            <span class="section-mark" aria-hidden="true"></span>
-            <div>
-              <p class="section-label">Structure</p>
-              <h2>如果你愿意，这一页还能继续细化。</h2>
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">战队定位</h2>
             </div>
-          </div>
-          <div class="card-grid-three">
-            <article class="info-panel reveal">
-              <h3>组织结构</h3>
-              <p>负责人、指导老师、各技术组别与职能分工。</p>
-            </article>
-            <article class="info-panel reveal">
-              <h3>训练体系</h3>
-              <p>新生成长路线、周期任务、考核与传承资料。</p>
-            </article>
-            <article class="info-panel reveal">
-              <h3>团队文化</h3>
-              <p>强调工程规范、长期投入、协作精神与技术分享。</p>
-            </article>
-          </div>
+            <p>
+              战队以机器人竞赛为牵引，以工程实践为核心，通过长期训练和项目迭代，
+              培养学生的机械设计能力、电控调试能力、程序开发能力、团队协作能力和工程落地能力。
+            </p>
+          </section>
+
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">技术方向</h2>
+            </div>
+            <div class="group-list">
+              <article class="group-item">
+                <h3>机械组</h3>
+                <p>负责机器人结构设计、传动机构设计、三维建模、材料选型、加工装配与结构迭代。</p>
+              </article>
+              <article class="group-item">
+                <h3>电控组</h3>
+                <p>负责电机驱动、传感器接入、控制板调试、电源管理与整机电气系统搭建。</p>
+              </article>
+              <article class="group-item">
+                <h3>嵌入式组</h3>
+                <p>负责底层程序开发、通信协议、运动控制、任务逻辑与整机控制系统实现。</p>
+              </article>
+              <article class="group-item">
+                <h3>视觉算法组</h3>
+                <p>负责目标识别、图像处理、相机标定、定位辅助与智能感知功能开发。</p>
+              </article>
+              <article class="group-item">
+                <h3>运营宣传组</h3>
+                <p>负责招新宣传、赛事资料整理、视频图文记录、公众号/B站内容维护和对外展示。</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">组织结构</h2>
+            </div>
+            <div class="simple-list">
+              <p>指导老师</p>
+              <p>队长 / 副队长</p>
+              <p>机械组 / 电控组 / 嵌入式组 / 视觉算法组 / 运营宣传组</p>
+            </div>
+          </section>
+
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">训练体系</h2>
+            </div>
+            <p>
+              战队采用“基础培训—方向任务—小组协作—整机联调—赛后复盘”的培养方式。
+              新成员先完成基础工具和基本知识训练，再根据兴趣进入不同技术方向，通过实际项目逐步提升工程能力。
+            </p>
+          </section>
+
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">团队文化</h2>
+            </div>
+            <p>
+              开拓者机器人战队强调主动学习、动手实践、持续迭代和团队协作。
+              我们鼓励队员在真实工程问题中成长，在失败和调试中积累经验，在比赛和项目中形成可靠的技术能力。
+            </p>
+          </section>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="shell footer-inner">
-        <img src="assets/logo-mark.svg" alt="" width="34" height="34" />
-        <p>© 2026 Wenzhou University Pioneer Robot Team</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.svg" alt="" width="32" height="32" />
+          <div>
+            <p class="footer-name">温州大学开拓者机器人战队</p>
+            <p>地址：温州大学机器人创新实践基地</p>
+            <p>联系方式：请替换为战队邮箱 / QQ 群 / 招新负责人</p>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>B站：开拓者机器人战队</p>
+          <p>© 2026 Wenzhou University Pioneer Robotics Team</p>
+        </div>
       </div>
     </footer>
   </body>

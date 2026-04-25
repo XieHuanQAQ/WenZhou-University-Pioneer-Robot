@@ -4,23 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>名人堂 | 温州大学开拓者机器人战队</title>
-    <meta name="description" content="温州大学开拓者机器人战队名人堂页面，记录做出重大贡献的老师与队员。" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="温州大学开拓者机器人战队名人堂页面，记录指导老师、历任队长和核心贡献成员。"
     />
     <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header class="topbar">
-      <div class="shell topbar-inner">
-        <a class="brand" href="index.html" aria-label="温州大学开拓者机器人战队">
-          <img src="assets/logo-mark.svg" alt="" width="54" height="54" />
-          <span class="brand-text">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="index.html" aria-label="温州大学开拓者机器人战队">
+          <img class="brand-logo" src="assets/logo-mark.svg" alt="" width="52" height="52" />
+          <span class="brand-copy">
             <strong>温州大学开拓者机器人战队</strong>
             <small>WENZHOU UNIVERSITY PIONEER ROBOT</small>
           </span>
@@ -30,10 +27,10 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="主导航">
           <a href="index.html">首页</a>
-          <a href="news.html">新闻</a>
-          <a href="history.html">历史</a>
+          <a href="news.html">新闻动态</a>
+          <a href="history.html">历届发展</a>
           <a href="partners.html">合作伙伴</a>
-          <a href="join.html">招新</a>
+          <a href="join.html">加入我们</a>
           <a href="about.html">关于我们</a>
           <a href="hall-of-fame.html" aria-current="page">名人堂</a>
           <a href="https://space.bilibili.com/3546788659202515" target="_blank" rel="noreferrer">B站</a>
@@ -42,55 +39,107 @@
     </header>
 
     <main>
-      <section class="page-hero">
-        <div class="shell shell-narrow">
-          <div class="page-intro reveal">
-            <p class="page-kicker">Hall Of Fame</p>
-            <h1 class="page-title">名人堂</h1>
-            <p class="page-summary">
-              这里适合记录对战队建设、技术积累、项目突破和传承做出重大贡献的老师与队员。
-            </p>
-          </div>
+      <section class="page-hero section">
+        <div class="container narrow">
+          <p class="eyebrow reveal">Hall Of Fame</p>
+          <h1 class="page-title reveal">名人堂</h1>
+          <p class="page-summary reveal">
+            记录为开拓者机器人战队建设、技术积累、赛事组织和团队传承作出重要贡献的老师、队长和成员。
+          </p>
         </div>
       </section>
 
-      <section class="section">
-        <div class="shell">
-          <div class="card-grid-three">
-            <article class="hall-card reveal">
-              <div class="hall-role">Teacher</div>
-              <h3>老师姓名</h3>
-              <p>可写指导方向、带队时间和对战队发展的关键贡献。</p>
-            </article>
-            <article class="hall-card reveal">
-              <div class="hall-role">Captain</div>
-              <h3>队员姓名</h3>
-              <p>可写担任角色、代表项目和对战队技术体系的建设贡献。</p>
-            </article>
-            <article class="hall-card reveal">
-              <div class="hall-role">Core Member</div>
-              <h3>队员姓名</h3>
-              <p>可写留下的重要代码、机械平台、训练资料或组织机制。</p>
-            </article>
-          </div>
-        </div>
-      </section>
+      <section class="section section-divider">
+        <div class="container narrow content-stack">
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">指导老师</h2>
+            </div>
+            <div class="group-list">
+              <article class="group-item">
+                <h3>XXX</h3>
+                <p>指导方向：机器人系统设计、竞赛指导、工程实践训练</p>
+                <p>指导年份：长期指导</p>
+                <p>主要贡献：长期指导战队项目建设，帮助队伍建立机械、电控、程序协同研发流程。</p>
+              </article>
+            </div>
+          </section>
 
-      <section class="section section-soft">
-        <div class="shell shell-narrow">
-          <div class="content-block reveal">
-            <p class="lead">
-              如果你们后面有真实照片和事迹简介，这一页会特别有战队历史感，也很适合做传承展示。
-            </p>
-          </div>
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">历任队长</h2>
+            </div>
+            <div class="group-list">
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>任期：20XX - 20XX</p>
+                <p>负责赛季：赛季项目名称</p>
+                <p>代表项目：整机平台建设 / 团队协同推进</p>
+                <p>主要贡献：推动战队训练体系建设，完善项目分工和复盘机制。</p>
+              </article>
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>任期：20XX - 20XX</p>
+                <p>负责赛季：赛季项目名称</p>
+                <p>代表项目：结构优化 / 电控整合</p>
+                <p>主要贡献：推动赛季项目有序落地，为后续成员留下可复用资料。</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="content-section reveal">
+            <div class="section-head">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <h2 class="section-title">核心贡献成员</h2>
+            </div>
+            <div class="group-list">
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>技术方向：机械平台搭建</p>
+                <p>贡献内容：负责关键机械平台设计与加工装配，形成结构迭代资料与经验沉淀。</p>
+              </article>
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>技术方向：电控系统调试</p>
+                <p>贡献内容：完成电控系统联调和控制板调试，为整机稳定运行提供核心支持。</p>
+              </article>
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>技术方向：视觉算法开发</p>
+                <p>贡献内容：推进识别算法、相机标定和辅助定位模块建设，为后续成员留下完整技术资料。</p>
+              </article>
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>技术方向：训练资料建设</p>
+                <p>贡献内容：整理基础培训内容与方向任务文档，帮助新成员更快进入项目节奏。</p>
+              </article>
+              <article class="group-item">
+                <h3>姓名</h3>
+                <p>技术方向：宣传运营建设</p>
+                <p>贡献内容：推动视频图文记录、赛事资料归档和对外展示内容建设。</p>
+              </article>
+            </div>
+          </section>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="shell footer-inner">
-        <img src="assets/logo-mark.svg" alt="" width="34" height="34" />
-        <p>© 2026 Wenzhou University Pioneer Robot Team</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.svg" alt="" width="32" height="32" />
+          <div>
+            <p class="footer-name">温州大学开拓者机器人战队</p>
+            <p>地址：温州大学机器人创新实践基地</p>
+            <p>联系方式：请替换为战队邮箱 / QQ 群 / 招新负责人</p>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>B站：开拓者机器人战队</p>
+          <p>© 2026 Wenzhou University Pioneer Robotics Team</p>
+        </div>
       </div>
     </footer>
   </body>
