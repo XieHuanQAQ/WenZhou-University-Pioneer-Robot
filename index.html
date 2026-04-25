@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页 | 温州大学开拓者机器人战队</title>
+    <meta
+      name="description"
+      content="温州大学开拓者机器人战队官网首页，展示战队概览与各栏目入口。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="index.html" aria-label="温州大学开拓者机器人战队">
+          <img src="assets/logo-mark.svg" alt="" width="54" height="54" />
+          <span class="brand-text">
+            <strong>温州大学开拓者机器人战队</strong>
+            <small>WENZHOU UNIVERSITY PIONEER ROBOT</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="主导航">
+          <a href="index.html" aria-current="page">首页</a>
+          <a href="news.html">新闻</a>
+          <a href="history.html">历史</a>
+          <a href="partners.html">合作伙伴</a>
+          <a href="join.html">招新</a>
+          <a href="about.html">关于我们</a>
+          <a href="hall-of-fame.html">名人堂</a>
+          <a href="https://space.bilibili.com/3546788659202515" target="_blank" rel="noreferrer">B站</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="shell hero-layout">
+          <div class="hero-copy reveal">
+            <p class="hero-kicker">Home</p>
+            <h1>温州大学开拓者机器人战队</h1>
+            <p class="hero-text">
+              首页现在只保留最核心的门面信息。新闻、历史、招新、赞助、团队介绍和名人堂
+              都已经拆分到独立页面，方便后续持续维护。
+            </p>
+            <div class="hero-actions">
+              <a class="link-button link-button-dark" href="about.html">了解战队</a>
+              <a class="link-button" href="join.html">查看招新</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="首页主视觉占位图">
+            <div class="hero-image">
+              <div class="hero-overlay">
+                <span>Replace with your best team or robot photo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stat-band">
+        <div class="shell stat-grid reveal">
+          <article>
+            <strong data-count="2019">2019</strong>
+            <span>战队起点</span>
+          </article>
+          <article>
+            <strong data-count="4">4</strong>
+            <span>核心方向</span>
+          </article>
+          <article>
+            <strong data-count="2">2</strong>
+            <span>年度招新批次</span>
+          </article>
+          <article>
+            <strong data-count="7">7</strong>
+            <span>网站主要栏目</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <span class="section-mark" aria-hidden="true"></span>
+            <div>
+              <p class="section-label">Navigation</p>
+              <h2>从首页进入你最想了解的内容。</h2>
+            </div>
+          </div>
+
+          <div class="link-card-grid">
+            <a class="link-card reveal" href="news.html">
+              <h3>新闻</h3>
+              <p>按时间排序展示训练、比赛、活动和更新动态。</p>
+            </a>
+            <a class="link-card reveal" href="history.html">
+              <h3>历史</h3>
+              <p>整理历届参赛详情、赛季节点和阶段成果。</p>
+            </a>
+            <a class="link-card reveal" href="partners.html">
+              <h3>合作伙伴</h3>
+              <p>展示赞助商、支持单位和合作方式。</p>
+            </a>
+            <a class="link-card reveal" href="join.html">
+              <h3>招新</h3>
+              <p>放置招新要求、流程、时间与报名方式。</p>
+            </a>
+            <a class="link-card reveal" href="about.html">
+              <h3>关于我们</h3>
+              <p>介绍战队定位、技术方向和组织结构。</p>
+            </a>
+            <a class="link-card reveal" href="hall-of-fame.html">
+              <h3>名人堂</h3>
+              <p>记录做出重大贡献的老师和队员。</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <img src="assets/logo-mark.svg" alt="" width="34" height="34" />
+        <p>© 2026 Wenzhou University Pioneer Robot Team</p>
+      </div>
+    </footer>
+  </body>
+</html>
